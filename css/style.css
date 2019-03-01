@@ -342,6 +342,34 @@ Main Components
   background: #007ac1;
 }
 
+.cd-schedule .single-event[data-event="event-6"],
+.cd-schedule [data-event="event-6"] .header-bg {
+  background: #8e0000;
+}
+
+.cd-schedule .single-event[data-event="event-6"]:hover {
+  background: #8e0000;
+}
+
+.cd-schedule .single-event[data-event="event-7"],
+.cd-schedule [data-event="event-7"] .header-bg {
+  background: #00a867;
+}
+
+.cd-schedule .single-event[data-event="event-7"]:hover {
+  background: #00a867;
+}
+
+.cd-schedule .single-event[data-event="event-8"],
+.cd-schedule [data-event="event-8"] .header-bg {
+  background: #894200;
+}
+
+.cd-schedule .single-event[data-event="event-8"]:hover {
+  background: #894200;
+}
+
+
 .cd-schedule .event-modal {
   position: fixed;
   z-index: 3;
