@@ -369,6 +369,16 @@ Main Components
   background: #894200;
 }
 
+.cd-schedule .single-event[data-event="event-9"],
+.cd-schedule [data-event="event-9"] .header-bg {
+  background: #000000;
+}
+
+.cd-schedule .single-event[data-event="event-9"]:hover {
+  background: #000000;
+}
+
+
 
 .cd-schedule .event-modal {
   position: fixed;
